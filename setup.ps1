@@ -1,6 +1,7 @@
 function install_node {
-    Invoke-WebRequest "" -OutFile "node_install.ps1"
-    Write-Host "If you'd like to install Node and NPM, you can use 'node_install.ps1' script."
+    # Invoke-WebRequest "" -OutFile "node_install.ps1"
+    # Write-Host "If you'd like to install Node and NPM, you can use 'node_install.ps1' script."
+    Write-Host "Error."
 }
 
 try {
